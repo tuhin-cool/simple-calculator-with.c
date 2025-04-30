@@ -17,21 +17,21 @@ int main(){
     {
         case '+' :
         {
-            printf("%lf + %lf = %lf\n", num1, num2,num1+num2);
+            printf("%.lf + %.lf = %.lf\n", num1, num2,num1+num2);
             break;
         }
         case '-' :{
-            printf("%lf + %lf = %lf\n", num1, num2,num1-num2);
+            printf("%.lf + %.lf = %.lf\n", num1, num2,num1-num2);
             break;
         }
          case '/' :
          {
-            printf("%lf + %lf = %lf\n", num1, num2,num1/num2);
+            printf("%.lf + %.lf = %.lf\n", num1, num2,num1/num2);
             break;
         }
         case '*' :
         {
-            printf("%lf + %lf = %lf\n", num1, num2,num1*num2);
+            printf("%.lf + %.lf = %.lf\n", num1, num2,num1*num2);
             break;
         }
         default:
